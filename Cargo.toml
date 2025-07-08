@@ -1,0 +1,26 @@
+[package]
+name = "simde"
+version = "0.1.0-alpha"
+edition = "2024"
+license = "MIT"
+description = "Simple and fast SIMD operations for Rust"
+keywords = ["simd", "vectorization", "performance", "avx", "avx2"]
+categories = ["algorithms", "hardware-support", "no-std"]
+
+[features]
+default = ["std", "fast_math", "runtime_detection"]
+fast_math = []
+precise_math = []
+alloc = []
+std = []
+avx2 = ["avx"]
+avx = []
+runtime_detection = []
+no_main = []
+
+[dependencies]
+
+[dev-dependencies]
+libm = "0.2.15"
+x86 = "0.52.0"
+rand = "=0.8.5"
