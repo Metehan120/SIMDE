@@ -32,7 +32,7 @@
 ### Lookup Table Operations
 - **Fast Gather**: SIMD-accelerated table lookups
 - **Prefetching**: Automatic memory prefetching for large tables
-- **Multiple Types**: i32, f32, f64 lookup tables
+- **Multiple Types**: i64, i32, f32, f64 lookup tables
 
 ### Memory Alignment
 - **Automatic Alignment**: Built-in `AlignData<T, N>` for guaranteed SIMD alignment

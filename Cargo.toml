@@ -3,9 +3,11 @@ name = "simde"
 version = "0.1.0-alpha"
 edition = "2024"
 license = "MIT"
+repository = "https://github.com/Metehan120/SIMDE"
+homepage = "https://github.com/Metehan120/SIMDE"
 description = "High-performance SIMD operations with zero-cost abstractions"
 keywords = ["simd", "vectorization", "performance", "avx", "avx2"]
-categories = ["algorithms", "hardware-support", "no-std"]
+categories = ["algorithms", "mathematics", "hardware-support", "no-std"]
 
 [features]
 default = ["std", "fast_math", "runtime_detection"]
