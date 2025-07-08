@@ -3,7 +3,7 @@ name = "simde"
 version = "0.1.0-alpha"
 edition = "2024"
 license = "MIT"
-description = "Simple and fast SIMD operations for Rust"
+description = "High-performance SIMD operations with zero-cost abstractions"
 keywords = ["simd", "vectorization", "performance", "avx", "avx2"]
 categories = ["algorithms", "hardware-support", "no-std"]
 
