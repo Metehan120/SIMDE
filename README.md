@@ -305,16 +305,6 @@ fma_f32_avx2(a: __m256, b: __m256, c: __m256, op: FmaOperation) -> Result<[T; U]
 
 - **Minimum**: x86_64 architecture
 - **Recommended**: CPU with AVX2 support (Intel Haswell+ / AMD Excavator+)
-- **Optimal**: CPU with AVX-512 support (future versions)
-
-## Examples
-
-Check out the [examples](examples/) directory for more comprehensive usage patterns:
-
-- `basic_operations.rs` - Simple arithmetic operations
-- `advanced_math.rs` - Complex mathematical functions
-- `lookup_tables.rs` - High-performance table operations
-- `benchmarks.rs` - Performance comparison tests
 
 ## Contributing
 
